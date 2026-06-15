@@ -14,6 +14,12 @@ The FSM contains two states:
 * Input = 0 → Stay in current state
 * Input = 1 → Toggle to the other state
 
+State Diagram
+
+The parity checker is implemented using a Moore Finite State Machine (FSM).
+<img width="1740" height="904" alt="State Diagram" src="https://github.com/user-attachments/assets/91f0f5be-4580-4a20-a872-35cf32fd9b3b" />
+
+
 ## Project Structure
 
 ```text
@@ -27,6 +33,8 @@ Parity_Checker_FSM
 ```
 
 ## Simulation
+<img width="1365" height="719" alt="parity_fsm_waveform" src="https://github.com/user-attachments/assets/b28068d0-30b1-463f-939e-2bd81e82964b" />
+
 
 Compile:
 
